@@ -176,7 +176,7 @@
         <div class="Work container mt-4">
            <div class="titles h1 mb-5">WORK</div>
            <div class="row my-3 WOrKS">
-               <div class="col-6">
+               <div class="col-12 col-md-6">
                    <div class="WorkCard my-5">
                        <img src="./assets/work/Sa9sini.PNG" alt="" class="workbg">
                        <div class="Workinfo pt-5">
@@ -195,7 +195,7 @@
                        <img src="./assets/logo_white.png" alt="" width="90%" class="WorkLogo">
                    </div>
                </div>
-               <div class="col-6">
+               <div class="col-12 col-md-6">
                 <div class="WorkCard my-5">
                     <img src="./assets/work/EticWebSite.PNG" alt="" class="workbg">
                     <div class="Workinfo pt-5">
@@ -215,7 +215,7 @@
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="WorkCard my-5">
                     <img src="./assets/work/SideHUstleLead.PNG" alt="" class="workbg">
                     <div class="Workinfo pt-5">
@@ -223,18 +223,22 @@
                     <div class="workDetails">The product SA9SINI is a learning website to ask questions about everything related to studying in all materials, proposed for all
                          the streams who have baccalaureate exams to find the answer from teachers, colleagues, or baccalaureate holders</div>
                          <div class="row">
-                             <div class="technologies col-7"><Strong>Technologies Used: </Strong> React JS</div>
-                           <div class="col-5"> <button class="btn knowMoreBtn mt-2 SeeProject">See Project</button></div> 
+                             <div class="technologies col-7"><Strong>Technologies Used: </Strong> React JS</div> 
                          </div>
                     </div>
                     <div class="actions mt-3 row">
-                    <i class="fa fa-heart fa2 m-2"></i>
-                    <i class="fa fa-github fa2 m-2"></i>
+                    <div class="col-7">
+                        <i class="fa fa-heart fa2 m-2"></i>
+                        <i class="fa fa-github fa2 m-2"></i>
+                    </div>
+                   <div class="col-5"> <button class="btn knowMoreBtn mt-2 SeeProject">See Project</button>
+                   </div>
+                   
                     </div>
                     <img src="./assets/Sidehustlelogo.PNG" alt="" width="90%" class="WorkLogo">
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
              <div class="WorkCard my-5">
                  <img src="./assets/work/Elearning.PNG" alt="" class="workbg">
                  <div class="Workinfo pt-5">
@@ -256,13 +260,38 @@
            </div>
         </div>
         <hr>
-        <div class="ContactMe">
-            
+        <div class="ContactMe container mt-4">
+                <div class="titles h1 mb-5">CONTACT ME</div>
+
+                <div class="contactSection">
+                    <form action="https://formsubmit.co/jo_sahbi@esi.dz" method="POST">
+                        <div class="inputSection">
+                            <input type="text" name="name" placeholder="Your Full Name" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                            <input type="text" name="_subject" placeholder="Subject" required>
+                            <textarea class="textMessage" type="text" name="Message" placeholder="Write Your Massage Here" required></textarea>
+                        </div>
+                        <button type="submit" class="SubmitBtn">Send Message</button>
+                   </form>
+                </div>
+
+        </div>
+        <hr>
+        <div class="footer  py-5">
+            <div class="socialMedia">
+                <i class="fa fa-linkedin fa2 mx-3"></i>  
+                <i class="fa fa-github fa2 mx-3"></i> 
+                <i class="fa fa-twitter fa2 mx-3"></i> 
+                <i class="fa fa-facebook fa2 mx-3"></i> 
+                <i class="fa fa-phone fa2 mx-3"></i>
+            </div>
+            <div class="text-center mt-2">© 2021 Ouael Sahbi All Rights Reserved.</div>
         </div>
 
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="./JS/index.js"></script>    
+            <script src="./JS/index.js"></script>
+
 </body>
 
 </html>

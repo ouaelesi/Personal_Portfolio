@@ -697,6 +697,12 @@ hr{
 	left: 35%;
 	box-shadow: 0px 2px 20px 0px rgba(10, 12, 58, 0.2);
 }
+/* .SeeProject{
+	display: none;
+}
+.WorkCard:hover > .SeeProject {
+	display: block;
+} */
 .WorkCard:hover > .Workinfo {
 	display: block;
 }
@@ -710,3 +716,112 @@ left: -50px;
 }
 
 /* Contact Me */
+.ContactMe{
+	height: 100vh;
+}
+.contactSection{
+	width: 50%;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.inputSection > input , textarea {
+	display: block;
+	margin: 0 auto;
+	width: 95%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(11, 12,17, 0.35);
+	height: 50px;
+	border: none;
+	border-radius: 8px;
+	padding-left: 10px;
+	color: var(--lightbrownColor);
+}
+.inputSection > textarea{
+  height: 150px;
+  padding-top: 10px;
+}
+.inputSection{
+	background-color: rgba(216, 213, 212, 0.15);
+	border-radius: 10px;
+	border: solid;
+	border-color: var(--lightbrownColor);
+	padding: 20px;
+	border-width: 1px;
+}
+.SubmitBtn{
+	background-color: rgba(216, 213, 212, 0.25);
+	border-radius: 10px;
+	border: solid;
+	border-color: var(--lightbrownColor);
+	border-width: 1px;
+	width: 200px;
+	margin-top: 10px;
+	height: 50px;
+	color: var(--lightbrownColor);
+	font-size: 22px;
+	font-weight: 700;
+}
+.SubmitBtn:hover{
+	background-color: rgba(216, 213, 212, 0.45);
+	color: var(--backGroundColor);
+}
+
+@media only screen and (max-width:675px){
+  /* Contact Me */ 
+  .contactSection{
+	width: 85%;
+	margin-top: 50px;
+}
+.inputSection{
+	padding: 10px;
+}
+.SubmitBtn{
+	width: 160px;
+	font-size: 18px;
+}
+.titles{
+	padding-left: 10px;
+	font-size: 35px;
+}
+
+/* Work */
+.WOrKS > div{
+	height: fit-content;
+}
+
+.WorkCard{
+	width: 90%;
+	height: 180px;
+	padding:20px;
+}
+.workbg{
+	top: -30px;
+}
+.worktitle{
+	margin-top: 10px;
+}
+
+.SeeProject{
+	width: 90%;
+	font-size: 12px;
+}
+
+.actions{
+	font-size: 20px;
+	bottom: 6px;
+}
+
+.WorkLogo{
+	width: 60px;
+	bottom: 6px;
+	right: 20px;
+}
+
+.WorkCard:hover > .WorkLogo {
+top: -15px;
+width: 100px;
+left: -20px;
+}
+}
